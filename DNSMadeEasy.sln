@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNSMadeEasy", "DNSMadeEasy\DNSMadeEasy.csproj", "{CF45A1AD-2A00-47EC-B0D0-14557E58EB31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNSMadeEasy.JsonCodegen", "DNSMadeEasy.JsonCodegen\DNSMadeEasy.JsonCodegen.csproj", "{CD72B75B-FCD9-49E6-98B6-A6A0E2A529C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF45A1AD-2A00-47EC-B0D0-14557E58EB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF45A1AD-2A00-47EC-B0D0-14557E58EB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF45A1AD-2A00-47EC-B0D0-14557E58EB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF45A1AD-2A00-47EC-B0D0-14557E58EB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD72B75B-FCD9-49E6-98B6-A6A0E2A529C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD72B75B-FCD9-49E6-98B6-A6A0E2A529C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD72B75B-FCD9-49E6-98B6-A6A0E2A529C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD72B75B-FCD9-49E6-98B6-A6A0E2A529C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BBD8AC7-422E-423A-9D21-E7C327F433C0}
+	EndGlobalSection
+EndGlobal

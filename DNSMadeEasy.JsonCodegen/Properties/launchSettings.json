@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DNSMadeEasy.JsonCodegen": {
+      "commandName": "Project",
+      "commandLineArgs": "\"obj\\Debug\\netstandard2.0\\\\Codegen\\Compile.txt\" \"obj\\Debug\\netstandard2.0\\\\Codegen\\Reference.txt\" \"TLDS.json\" \"obj\\Debug\\netstandard2.0\\\\Codegen\"",
+      "workingDirectory": "C:\\Users\\matth\\source\\repos\\DNSMadeEasy.NET\\DNSMadeEasy"
+    }
+  }
+}

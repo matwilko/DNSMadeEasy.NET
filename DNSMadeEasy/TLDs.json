@@ -1,0 +1,679 @@
+﻿{
+	"generic": {
+		"com": "Used for general purposes and is widely regarded as the standard for TLDs",
+		"org": "Nonprofits; personal sites; open-source projects; some government websites; mostly used by non-commercial entities",
+		"net": "ISPs; miscellaneous sites; used sometimes when desired name is not available in .com",
+		"int": "Intergovernmental organizations and organizations with United Nations observer status",
+		"edu": "US Educational institutions",
+		"gov": "United States government",
+		"mil": "Agencies, services and divisions of the United States Department of Defense"
+	},
+	"countryCodes": {
+		"ac": {
+			"country": "Ascension Island (United Kingdom)",
+			"notes": "Commonly used for academic websites, such as universities. However, .ac is not to be confused with the official academic domains used by several countries such as the United Kingdom (.ac.uk), India (.ac.in) or Indonesia (.ac.id). Also used in the accounting, consulting, and air-conditioning industries."
+		},
+		"ad": {
+			"country": "Andorra",
+			"notes": "Local trademark, trade name or citizenship required"
+		},
+		"ae": "United Arab Emirates",
+		"af": "Afghanistan",
+		"ag": {
+			"country": "Antigua and Barbuda",
+			"notes": "Also unofficially used by German businesses (where AG is an abbreviation of Aktiengesellschaft)."
+		},
+		"ai": {
+			"country": "Anguilla (United Kingdom)",
+			"notes": "Also unofficially used by tech companies specializing in AI (Artificial Intelligence)."
+		},
+		"al": {
+			"country": "Albania",
+			"notes": "Citizenship no longer required."
+		},
+		"am": {
+			"country": "Armenia",
+			"notes": "Also unofficially used by AM radio stations, podcasts or related business."
+		},
+		"ao": "Angola",
+		"aq": {
+			"country": "Antarctica",
+			"notes": "Defined by the Antarctic Treaty as everything south of latitude 60\u00B0S. AQ domain names are available to government organizations who are signatories to the Antarctic Treaty and to other registrants who have a physical presence in Antarctica."
+		},
+		"ar": "Argentina",
+		"as": {
+			"country": "American Samoa (United States)",
+			"notes": "In some countries, like Norway and Denmark, \u0022AS\u0022 or \u0022A/S\u0022 is used as an abbreviation for stock-based or limited companies. Such companies will often make use of the domain. Also unofficially used by the Principality of Asturias, Spain."
+		},
+		"at": "Austria",
+		"au": {
+			"country": "Australia",
+			"notes": "Restrictions apply. In general, registrants must be Australian, and can be registered anywhere between 1 and 5 years. Includes Ashmore and Cartier Islands and Coral Sea Islands."
+		},
+		"aw": {
+			"country": "Aruba (Kingdom of the Netherlands)",
+			"notes": "Restricted to registered Aruban companies, organisations and citizens"
+		},
+		"ax": "\u00C5land (Finland)",
+		"az": "Azerbaijan",
+		"ba": "Bosnia and Herzegovina",
+		"bb": "Barbados",
+		"bd": "Bangladesh",
+		"be": {
+			"country": "Belgium",
+			"notes": "Also unofficially used in the Canton of Bern, Switzerland"
+		},
+		"bf": "Burkina Faso",
+		"bg": {
+			"country": "Bulgaria",
+			"notes": "See also .\u0431\u0433 (.bg in cyrillic) for IDN ccTLD"
+		},
+		"bh": "Bahrain",
+		"bi": "Burundi",
+		"bj": "Benin",
+		"bm": {
+			"country": "Bermuda (United Kingdom)",
+			"notes": "Local corporate registration required"
+		},
+		"bn": "Brunei",
+		"bo": "Bolivia",
+		"br": {
+			"country": "Brazil",
+			"notes": "Restricted. Registration is done under several categories (i.e.: .edu.br for higher education institutions, .gov.br for government agencies, etc.)."
+		},
+		"bs": "Bahamas",
+		"bt": "Bhutan",
+		"bw": "Botswana",
+		"by": {
+			"country": "Belarus",
+			"notes": "Also unofficially used to denote Bayern (Bavaria), Germany"
+		},
+		"bz": {
+			"country": "Belize",
+			"notes": "Also unofficially used in the province of Bozen (or South Tyrol, see .st)"
+		},
+		"ca": {
+			"country": "Canada",
+			"notes": "Subject to Canadian Presence Requirements. Also unofficially used by some websites in the U.S. state of California."
+		},
+		"cc": {
+			"country": "Cocos (Keeling) Islands (Australia)",
+			"notes": "Australian territory: not to be confused with Cocos islands in Guam. Currently marketed as global domain, registration allowed worldwide, local presence not required; the domain is currently operated by eNIC, a VeriSign company."
+		},
+		"cd": {
+			"country": "Democratic Republic of the Congo",
+			"notes": "Also unofficially used for Compact disc-related domains."
+		},
+		"cf": {
+			"country": "Central African Republic",
+			"notes": "Also used as a free domain service to the public."
+		},
+		"cg": "Republic of the Congo",
+		"ch": "Switzerland",
+		"ci": "Ivory Coast",
+		"ck": "Cook Islands",
+		"cl": "Chile",
+		"cm": {
+			"country": "Cameroon",
+			"notes": "A local entity/company in Cameroon is required to register a domain name."
+		},
+		"cn": {
+			"country": "People\u0027s Republic of China",
+			"notes": "A local company in China is required to register a domain name, or for personal registrations a valid Resident Identity Card. See ICP license for more information regarding registrations. Hong Kong and Macau also maintain TLDs."
+		},
+		"co": {
+			"country": "Colombia",
+			"notes": "Marketed as a global domain - recognized as a gccTLD by Google. Anyone can register."
+		},
+		"cr": "Costa Rica",
+		"cu": "Cuba",
+		"cv": {
+			"country": "Cape Verde",
+			"notes": "Also unofficially used for curriculum vitae-related domains."
+		},
+		"cw": "Cura\u00E7ao (Kingdom of the Netherlands)",
+		"cx": "Christmas Island",
+		"cy": "Cyprus",
+		"cz": "Czech Republic",
+		"de": {
+			"country": "Germany",
+			"notes": "German postal address for administrative contact (admin-c) required. Proxy registrations are allowed."
+		},
+		"dj": {
+			"country": "Djibouti",
+			"notes": "Also unofficially used by disc jockeys."
+		},
+		"dk": "Denmark",
+		"dm": "Dominica",
+		"do": "Dominican Republic",
+		"dz": "Algeria",
+		"ec": {
+			"country": "Ecuador",
+			"notes": "In Japan, \u0022EC\u0022 is used as an acronym for \u0022electronic commerce\u0022. Because of that, it\u0027s used unofficially by companies dedicated to provide online stores like BASE, a company that has two domains related to e-commerce: \u0022base.in\u0022 and \u0022official.ec\u0022."
+		},
+		"ee": "Estonia",
+		"eg": "Egypt",
+		"er": "Eritrea",
+		"es": "Spain",
+		"et": "Ethiopia",
+		"eu": {
+			"country": "European Union",
+			"notes": "Restricted to legal and natural persons in European Union member states. Previously unofficially used for sites in the Basque language, but now .eus is in official use."
+		},
+		"fi": {
+			"country": "Finland",
+			"notes": "Registration allowed worldwide, local presence not required."
+		},
+		"fj": "Fiji",
+		"fk": "Falkland Islands (United Kingdom)",
+		"fm": {
+			"country": "Federated States of Micronesia",
+			"notes": "Also unofficially used by FM radio stations, podcasts or related business."
+		},
+		"fo": "Faroe Islands (Kingdom of Denmark)",
+		"fr": {
+			"country": "France",
+			"notes": "Restricted to individuals and companies in European Union, Switzerland, Norway, Iceland and Liechtenstein."
+		},
+		"ga": {
+			"country": "Gabon",
+			"notes": "Also used as a free domain service to the public."
+		},
+		"gd": "Grenada",
+		"ge": {
+			"country": "Georgia",
+			"notes": "Available for registration for residents of Georgia (unlimited) or for foreign companies via representation of any local legal person (one domain name per registrant)."
+		},
+		"gf": "French Guiana (France)",
+		"gg": {
+			"country": "Guernsey (United Kingdom)",
+			"notes": "Also unofficially used by video game related websites."
+		},
+		"gh": "Ghana",
+		"gi": "Gibraltar (United Kingdom)",
+		"gl": {
+			"country": "Greenland (Kingdom of Denmark)",
+			"notes": "Previously also unofficially used in Galicia, Spain, but now .gal has been approved for such use and was implemented in mid-2014"
+		},
+		"gm": {
+			"country": "The Gambia",
+			"notes": "Domain name should match the domain owners name or trademarks. Common nouns are blocked."
+		},
+		"gn": {
+			"country": "Guinea",
+			"notes": "A local contact is required"
+		},
+		"gp": {
+			"country": "Guadeloupe (France)",
+			"notes": "Still used for Saint-Barth\u00E9lemy and Saint-Martin"
+		},
+		"gq": {
+			"country": "Equatorial Guinea",
+			"notes": "Also used as a free domain service to the public."
+		},
+		"gr": "Greece",
+		"gs": "South Georgia and the South Sandwich Islands (United Kingdom)",
+		"gt": "Guatemala",
+		"gu": {
+			"country": "Guam (United States)",
+			"notes": "Registry has been closed since 2017."
+		},
+		"gw": "Guinea-Bissau",
+		"gy": "Guyana",
+		"hk": "Hong Kong",
+		"hm": {
+			"country": "Heard Island and McDonald Islands",
+			"notes": "Unused for its intended purposes (islands are uninhabited and government sites instead use .aq); registry open to the public."
+		},
+		"hn": "Honduras",
+		"hr": "Croatia",
+		"ht": "Haiti",
+		"hu": {
+			"country": "Hungary",
+			"notes": "Citizens of the European Union or entities established by law within the territory of the EU"
+		},
+		"id": {
+			"country": "Indonesia",
+			"notes": "Restricted to Indonesian companies (co.id), organisations (or.id), academic (ac.id \u0026 sch.id) and citizens (biz.id, my.id \u0026 web.id). Second-level domains are becoming available now and opened to general registration on 17 August 2014."
+		},
+		"ie": {
+			"country": "Ireland",
+			"notes": "In 2002, registration was expanded to include persons or businesses with a \u0022real and substantive\u0022 connection with the island of Ireland (including Northern Ireland)."
+		},
+		"il": "Israel",
+		"im": "Isle of Man (United Kingdom)",
+		"in": {
+			"country": "India",
+			"notes": "Under INRegistry since April 2005 (except: gov.in, nic.in, mil.in, ac.in, edu.in, res.in)."
+		},
+		"io": {
+			"country": "British Indian Ocean Territory (United Kingdom)",
+			"notes": "Used unofficially by technology companies, startups, and web applications because IO can be an acronym for input/output that is useful for domain hacks."
+		},
+		"iq": "Iraq",
+		"ir": "Iran",
+		"is": {
+			"country": "Iceland",
+			"notes": "Also unofficially used and marketed as a domain hack (for example it.is, that.is, etc.)."
+		},
+		"it": {
+			"country": "Italy",
+			"notes": "Restricted to companies and individuals in the European Union."
+		},
+		"je": "Jersey (United Kingdom)",
+		"jm": "Jamaica",
+		"jo": "Jordan",
+		"jp": {
+			"country": "Japan",
+			"notes": "Restricted to individuals or companies with a physical address in Japan."
+		},
+		"ke": "Kenya",
+		"kg": "Kyrgyzstan",
+		"kh": "Cambodia",
+		"ki": "Kiribati",
+		"km": "Comoros",
+		"kn": "Saint Kitts and Nevis",
+		"kp": {
+			"country": "North Korea",
+			"notes": "Restricted to companies, organizations, or government entities based in North Korea. Despite this, few domains are actually registered because of internet censorship in North Korea."
+		},
+		"kr": "South Korea",
+		"kw": "Kuwait",
+		"ky": "Cayman Islands (United Kingdom)",
+		"kz": "Kazakhstan",
+		"la": {
+			"country": "Laos",
+			"notes": "Currently being marketed as the unofficial domain for Los Angeles"
+		},
+		"lb": {
+			"country": "Lebanon",
+			"notes": "Restricted to registration with a company in Lebanon"
+		},
+		"lc": "Saint Lucia",
+		"li": {
+			"country": "Liechtenstein",
+			"notes": "Also unofficially used by entities on Long Island, New York or people with the last name Li. In Russian, li can be used to create domain names that mean a verb with a past tense singular ending li"
+		},
+		"lk": "Sri Lanka",
+		"lr": "Liberia",
+		"ls": "Lesotho",
+		"lt": "Lithuania",
+		"lu": "Luxembourg",
+		"lv": "Latvia",
+		"ly": "Libya",
+		"ma": "Morocco",
+		"mc": {
+			"country": "Monaco",
+			"notes": "Only for companies with a trademark registered in Monaco"
+		},
+		"md": {
+			"country": "Moldova",
+			"notes": "Restricted to individuals or companies with a physical address in Moldova."
+		},
+		"me": {
+			"country": "Montenegro",
+			"notes": "Also unofficially used and marketed as a domain hack (for example love.me, meet.me, etc.)."
+		},
+		"mg": "Madagascar",
+		"mh": "Marshall Islands",
+		"mk": {
+			"country": "North Macedonia",
+			"notes": "Restricted to registration with a company in North Macedonia"
+		},
+		"ml": {
+			"country": "Mali",
+			"notes": "Also used as a free domain service to the public."
+		},
+		"mm": "Myanmar",
+		"mn": {
+			"country": "Mongolia",
+			"notes": "The second-level domains \u0027.gov.mn\u0027, \u0027.org.mn\u0027, and \u0027.edu.mn\u0027 are reserved for special use. See .mn for more information."
+		},
+		"mo": {
+			"country": "Macau",
+			"notes": "Special administrative region of the People\u0027s Republic of China. Registrants must have a registered business in Macau, with the same name as the domain they wish to register."
+		},
+		"mp": "Northern Mariana Islands (United States)",
+		"mq": "Martinique (France)",
+		"mr": {
+			"country": "Mauritania",
+			"notes": "Also unofficially used for Mr.-related domains."
+		},
+		"ms": {
+			"country": "Montserrat (United Kingdom)",
+			"notes": "Also unofficially used for Microsoft-related domains."
+		},
+		"mt": "Malta",
+		"mu": "Mauritius",
+		"mv": "Maldives",
+		"mw": "Malawi",
+		"mx": "Mexico",
+		"my": {
+			"country": "Malaysia",
+			"notes": "Restricted to registration by an individual or company in Malaysia"
+		},
+		"mz": "Mozambique",
+		"na": "Namibia",
+		"nc": {
+			"country": "New Caledonia (France)",
+			"notes": "Restricted to companies that have a New Caledonian Business Registration Certificate or individuals living in New Caledonia for at least 6 months."
+		},
+		"ne": {
+			"country": "Niger",
+			"notes": "Also unofficially used and marketed as a Lithuanian-language domain hack (for example o.ne, kaip.ne, etc.)"
+		},
+		"nf": "Norfolk Island",
+		"ng": "Nigeria",
+		"ni": "Nicaragua",
+		"nl": {
+			"country": "Netherlands",
+			"notes": "First official country code TLD."
+		},
+		"no": {
+			"country": "Norway",
+			"notes": "Businesses and professionals must be registered as an approved type of organization in the Br\u00F8nn\u00F8ysund Register Centre. Individual applicants must be of age (18 years) and be registered in Folkeregisteret. All applicants must have a Norwegian postal address."
+		},
+		"np": {
+			"country": "Nepal",
+			"notes": "All .np domains are free to register for individuals and registered businesses. Foreign businesses must provide proof of local presence in Nepal."
+		},
+		"nr": {
+			"country": "Nauru",
+			"notes": "Was previously used as a free domain service to the public as co.nr."
+		},
+		"nu": {
+			"country": "Niue",
+			"notes": "Commonly used by Danish, Dutch and Swedish websites, because in those languages \u0022nu\u0022 means \u0022now\u0022."
+		},
+		"nz": "New Zealand",
+		"om": {
+			"country": "Oman",
+			"notes": "Registrant must have company or trademark registered in Oman as well as a local administrative contact."
+		},
+		"pa": "Panama",
+		"pe": "Peru",
+		"pf": {
+			"country": "French Polynesia (France)",
+			"notes": "With Clipperton Island"
+		},
+		"pg": "Papua New Guinea",
+		"ph": "Philippines",
+		"pk": {
+			"country": "Pakistan",
+			"notes": "Operated by PKNIC since 1992"
+		},
+		"pl": "Poland",
+		"pm": {
+			"country": "Saint-Pierre and Miquelon (France)",
+			"notes": "Restricted to individuals and companies in European Union, Switzerland, Norway, Iceland and Liechtenstein."
+		},
+		"pn": {
+			"country": "Pitcairn Islands (United Kingdom)",
+			"notes": "As a part of a marketing campaign, Lionsgate used the TLD for some (now defunct) sites related to The Hunger Games franchise, presenting it as the \u0022official\u0022 country code of the fictional nation of Panem, notable sites included thecapitol.pn and revolution.pn."
+		},
+		"pr": "Puerto Rico (United States)",
+		"ps": {
+			"country": "Palestine",
+			"notes": "West Bank and Gaza Strip."
+		},
+		"pt": "Portugal",
+		"pw": "Palau",
+		"py": "Paraguay",
+		"qa": "Qatar",
+		"re": {
+			"country": "R\u00E9union (France)",
+			"notes": "Restricted to individuals and companies in European Union, Switzerland, Norway, Iceland and Liechtenstein."
+		},
+		"ro": "Romania",
+		"rs": {
+			"country": "Serbia",
+			"notes": "See also .\u0441\u0440\u0431 (.srb in Cyrillic). Also unofficially used for Rust (programming language)-related domains."
+		},
+		"ru": {
+			"country": "Russia",
+			"notes": "See also .su, still in use, and .\u0440\u0444, for IDN."
+		},
+		"rw": "Rwanda",
+		"sa": {
+			"country": "Saudi Arabia",
+			"notes": "Registrant must have a registered trademark in Saudi Arabia matching the domain name to register or provide company incorporation documents of a company in Saudi Arabia or for personal registrations a copy of valid ID. A letter on the official letterhead of your organization addressed to SaudiNIC requesting the domain name registration is also required. Local administrative contact required. 2LD registrations rolled out in 2011."
+		},
+		"sb": {
+			"country": "Solomon Islands",
+			"notes": "Also unofficially used for SpongeBob SquarePants-related domains."
+		},
+		"sc": {
+			"country": "Seychelles",
+			"notes": "Also unofficially used for Snapchat-related domains."
+		},
+		"sd": "Sudan",
+		"se": "Sweden",
+		"sg": "Singapore",
+		"sh": "Saint Helena (United Kingdom)",
+		"si": "Slovenia",
+		"sk": {
+			"country": "Slovakia",
+			"notes": "Restricted to Slovak companies, organisations and citizens."
+		},
+		"sl": "Sierra Leone",
+		"sm": {
+			"country": "San Marino",
+			"notes": "Domain name must be same as company name or trademark."
+		},
+		"sn": {
+			"country": "Senegal",
+			"notes": "Registration allowed for companies only. Individuals are not allowed to register."
+		},
+		"so": {
+			"country": "Somalia",
+			"notes": "Relaunched on 1 November 2010."
+		},
+		"sr": "Suriname",
+		"ss": {
+			"country": "South Sudan",
+			"notes": "Added to the DNS root zone in February 2019. Registry is not yet available."
+		},
+		"st": {
+			"country": "S\u00E3o Tom\u00E9 and Pr\u00EDncipe",
+			"notes": "Also unofficially used in South Tyrol (or province of Bozen, see .bz)."
+		},
+		"su": {
+			"country": "Soviet Union",
+			"notes": "Still in use."
+		},
+		"sv": "El Salvador",
+		"sx": "Sint Maarten (Kingdom of the Netherlands)",
+		"sy": "Syria",
+		"sz": {
+			"country": "Eswatini",
+			"notes": "Registration is restricted to Eswatini organizations with Eswatini Trading Licenses."
+		},
+		"tc": {
+			"country": "Turks and Caicos Islands (United Kingdom)",
+			"notes": "Also marketed in Turkey. The official abbreviation of \u0027T\u00FCrkiye Cumhuriyeti\u0027 (Republic of Turkey) is TC."
+		},
+		"td": {
+			"country": "Chad",
+			"notes": "Available for registration to entities connected with Chad only."
+		},
+		"tf": {
+			"country": "French Southern and Antarctic Lands",
+			"notes": "Seldom used. Restricted to individuals and companies in European Union, Switzerland, Norway, Iceland and Liechtenstein. Domains must be longer than two characters. It has also been adopted by the community of the game Team Fortress 2."
+		},
+		"tg": "Togo",
+		"th": "Thailand",
+		"tj": "Tajikistan",
+		"tk": {
+			"country": "Tokelau",
+			"notes": "Also used as a free domain service to the public."
+		},
+		"tl": {
+			"country": "East Timor",
+			"notes": "Old code .tp is deactivated since 2015."
+		},
+		"tm": "Turkmenistan",
+		"tn": "Tunisia",
+		"to": {
+			"country": "Tonga",
+			"notes": "Often used unofficially for Torrent, Turin (Torino in Italian), Toronto, Tokyo, or Tocantins, and also as a domain hack in Slavic languages (to meaning it)."
+		},
+		"tr": {
+			"country": "Turkey",
+			"notes": ".nc.tr used by Northern Cyprus"
+		},
+		"tt": "Trinidad and Tobago",
+		"tv": {
+			"country": "Tuvalu",
+			"notes": "Used as an abbreviation of television, the domain is currently operated by dotTV, a VeriSign company; the Tuvalu government owns twenty percent of the company."
+		},
+		"tw": {
+			"country": "Taiwan",
+			"notes": "Registration allowed worldwide, local presence not required. In line with ISO 3166-1, IANA\u0027s official position is that \u201CTW\u201D is \u0022designated for use to represent \u0022Taiwan.\u0022"
+		},
+		"tz": {
+			"country": "Tanzania",
+			"notes": "Must have a presence in Tanzania"
+		},
+		"ua": {
+			"country": "Ukraine",
+			"notes": "Ukrainian trademark required"
+		},
+		"ug": {
+			"country": "Uganda",
+			"notes": "Also unofficially used for Uncle Grandpa-related domains."
+		},
+		"uk": {
+			"country": "United Kingdom",
+			"notes": "The ISO 3166-1 code for the United Kingdom is GB. UK is a specially reserved ISO 3166-1 code. However, the creation of the .uk TLD predates the ISO 3166-1 list of ccTLD and is the primary TLD for the United Kingdom."
+		},
+		"us": {
+			"country": "United States of America",
+			"notes": "Registrants must be United States citizens, residents, or organizations, or a foreign entity with a presence in the United States. Formerly commonly used by U.S. State and local governments, see also .gov TLD."
+		},
+		"uy": {
+			"country": "Uruguay",
+			"notes": "2LD rollout began on 10 July 2012."
+		},
+		"uz": "Uzbekistan",
+		"va": {
+			"country": "Vatican City",
+			"notes": "Limited to the official sites of the Holy See (including those of the Vatican City State)."
+		},
+		"vc": "Saint Vincent and the Grenadines",
+		"ve": {
+			"country": "Venezuela",
+			"notes": "Registration is at the third level."
+		},
+		"vg": "British Virgin Islands (United Kingdom)",
+		"vi": "United States Virgin Islands (United States)",
+		"vn": "Vietnam",
+		"vu": "Vanuatu",
+		"wf": {
+			"country": "Wallis and Futuna",
+			"notes": "Restricted to individuals and companies in European Union, Switzerland, Norway, Iceland and Liechtenstein."
+		},
+		"ws": {
+			"country": "Samoa",
+			"notes": "Marketed for use in general Websites"
+		},
+		"ye": "Yemen",
+		"yt": {
+			"country": "Mayotte",
+			"notes": "Restricted to individuals and companies in European Union, Switzerland, Norway, Iceland and Liechtenstein. Also unofficially used for YouTube-related domains."
+		},
+		"za": "South Africa",
+		"zm": "Zambia",
+		"zw": "Zimbabwe"
+	},
+	"geographic": {
+		"africa": "Africa",
+		"capetown": "Cape Town, South Africa",
+		"durban": "Durban, South Africa",
+		"joburg": "Johannesburg, South Africa",
+		"abudhabi": "Abu Dhabi",
+		"arab": "League of Arab States",
+		"asia": "Asia-Pacific region",
+		"doha": "Doha",
+		"dubai": "Dubai",
+		"krd": "Kurdistan",
+		"kyoto": "Kyoto, Japan",
+		"nagoya": "Nagoya, Japan",
+		"okinawa": "Okinawa, Japan",
+		"osaka": "Osaka, Japan",
+		"ryukyu": "Ryukyu Islands, Japan",
+		"taipei": "Taipei, Taiwan",
+		"tatar": {
+			"area": "Tatarpeoples and places",
+			"notes": "Tatarstan is a region in Russia, though this TLD is meant for the global Tatar community."
+		},
+		"tokyo": "Tokyo, Japan",
+		"yokohama": "Yokohama, Japan",
+		"alsace": "Alsace, France",
+		"amsterdam": "Amsterdam, The Netherlands",
+		"bar": {
+			"area": "Bar, Montenegro",
+			"notes": "Mostly used for bars and other alcohol facilities worldwide"
+		},
+		"bcn": "Barcelona, Spain",
+		"barcelona": "Barcelona, Spain",
+		"bayern": "Bavaria, Germany",
+		"berlin": "Berlin, Germany",
+		"brussels": "Brussels, Belgium",
+		"budapest": "Budapest, Hungary",
+		"bzh": {
+			"area": "Brittany, France; Breton language and culture",
+			"notes": "Breizh in Breton.This is a TLD for Web sites in the Breton language or related to Breton culture"
+		},
+		"cat": {
+			"area": "Catalonia, Spain; Catalan language and culture",
+			"notes": "This is a TLD for Web sites in the Catalan language or related to Catalan culture."
+		},
+		"cologne": "Cologne, Germany",
+		"corsica": {
+			"area": "Corsica, France",
+			"notes": "TLD Related to Corsican Culture"
+		},
+		"cymru": "Wales, United Kingdom",
+		"eus": {
+			"area": "Basque, Spain and France",
+			"notes": "Euskal Herria in Basque. Web sites must be in the Basque language and are checked periodically."
+		},
+		"frl": {
+			"area": "Friesland, Netherlands",
+			"notes": "Fryslnin (West) Frisian, one of the twelve provinces in the Netherlands."
+		},
+		"gal": "Galicia, Spain",
+		"gent": "Ghent, Belgium",
+		"hamburg": "Hamburg, Germany",
+		"helsinki": "Helsinki, Finland",
+		"irish": "Ireland; global Irish community",
+		"ist": "Istanbul, Turkey",
+		"istanbul": "Istanbul, Turkey",
+		"koeln": "Cologne, Germany",
+		"london": "London, United Kingdom",
+		"madrid": "Madrid, Spain",
+		"moscow": "Moscow, Russia",
+		"nrw": "North Rhine-Westphalia, Germany",
+		"paris": "Paris, France",
+		"ruhr": "Ruhr, Germany",
+		"saarland": "Saarland, Germany",
+		"scot": "Scotland, United Kingdom",
+		"stockholm": "Stockholm, Sweden",
+		"swiss": "Switzerland",
+		"tirol": "Tyrol, Austria",
+		"vlaanderen": "Flanders, Belgium",
+		"wales": "Wales, United Kingdom",
+		"wien": "Vienna, Austria",
+		"zuerich": "Zurich, Switzerland",
+		"boston": "Boston, Massachusetts",
+		"miami": "Miami, Florida",
+		"nyc": "New York City, New York",
+		"quebec": "Qu\u00E9bec, Canada",
+		"vegas": "Las Vegas, Nevada",
+		"kiwi": "New Zealanders",
+		"melbourne": "Melbourne, Australia",
+		"sydney": "Sydney, Australia",
+		"lat": "Latin America",
+		"rio": "Rio de Janeiro, Brazil"
+	}
+}
