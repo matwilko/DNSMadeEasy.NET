@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>DNSMadeEasy.NET</PackageId>
-		<Version>0.1</Version>
+		<Version>0.2</Version>
 		<Authors>Matt Wilkinson</Authors>
 		<Product>DNSMadeEasy.NET</Product>
 		<Description>Library for accessing DNSMadeEasy's API</Description>

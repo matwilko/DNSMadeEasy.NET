@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
@@ -50,13 +51,21 @@ namespace DNSMadeEasy
 			}
 		}
 
-		public async ValueTask<DnsRecords> CreateMultiRecordCollection(DomainId domain)
+		public Task DeleteRecord(DnsRecord record, CancellationToken cancellationToken = default) => Delete($"dns/managed/{record.ParentDomainId}/records/{record.Id}", cancellationToken);
+
+		public async Task DeleteRecords(IEnumerable<DnsRecord> records, CancellationToken cancellationToken = default)
 		{
-			var domainName = await DomainCache.EnsureAndGet(domain).ConfigureAwait(false);
+			foreach (var group in records.GroupBy(r => r.ParentDomainId, r => r.Id))
+				await Delete($"dns/managed/{group.Key}/records?{string.Join("&", group.Select(g => $"ids={g}"))}", cancellationToken).ConfigureAwait(false);
+		}
+
+		public async ValueTask<DnsRecords> CreateMultiRecordCollection(DomainId domain, CancellationToken cancellationToken = default)
+		{
+			var domainName = await DomainCache.EnsureAndGet(domain, cancellationToken).ConfigureAwait(false);
 			return new DnsRecords(domain, domainName);
 		}
 
-		public async Task PutRecords(DnsRecords records)
+		public async Task PutRecords(DnsRecords records, CancellationToken cancellationToken = default)
 		{
 			if (records is null)
 				throw new ArgumentNullException(nameof(records));
@@ -75,6 +84,62 @@ namespace DNSMadeEasy
 			await Task.WhenAll(creationTask, updateTask).ConfigureAwait(false);
 		}
 
+		public async Task CreateARecord(DomainId parentDomainId, DomainName name, IPv4 target, TimeToLive timeToLive, string? dynamicDnsPassword = null, GlobalTrafficDirectorLocation globalTrafficDirectorLocation = default, bool isSystemMonitoringEnabled = false, bool isFailoverEnabled = false, CancellationToken cancellationToken = default)
+		{
+			var parentDomain = await DomainCache.EnsureAndGet(parentDomainId, cancellationToken).ConfigureAwait(false);
+
+			if (!name.IsSubdomainOf(parentDomain))
+				throw new ArgumentException($"The specified domain `{name}` is not a subdomain of the parent `{parentDomain}`", nameof(name));
+
+			await Post($"dns/managed/{parentDomainId}/records", new
+			{
+				type        = "A",
+				name        = name.WithoutParent(parentDomain),
+				value       = target,
+				ttl         = timeToLive,
+				dynamicDns  = dynamicDnsPassword != null,
+				password    = dynamicDnsPassword,
+				gtdLocation = globalTrafficDirectorLocation,
+				monitor     = isSystemMonitoringEnabled,
+				failover    = isFailoverEnabled
+			}, cancellationToken).ConfigureAwait(false);
+		}
+
+		public async Task CreateCNameRecord(DomainId parentDomainId, DomainName name, DomainName target, TimeToLive timeToLive, GlobalTrafficDirectorLocation globalTrafficDirectorLocation = default, CancellationToken cancellationToken = default)
+		{
+			var parentDomain = await DomainCache.EnsureAndGet(parentDomainId, cancellationToken).ConfigureAwait(false);
+
+			if (!name.IsSubdomainOf(parentDomain))
+				throw new ArgumentException($"The specified domain `{name}` is not a subdomain of the parent `{parentDomain}`", nameof(name));
+
+			await Post($"dns/managed/{parentDomainId}/records", new
+			{
+				type = "CNAME",
+				name = name.WithoutParent(parentDomain),
+				value = target.IsSubdomainOf(parentDomain)
+					? target.WithoutParent(parentDomain)
+					: target + ".",
+				ttl         = timeToLive,
+				gtdLocation = globalTrafficDirectorLocation
+			}, cancellationToken).ConfigureAwait(false);
+		}
+
+		public async Task CreateTXTRecord(DomainId parentDomainId, DomainName name, string value, TimeToLive timeToLive, GlobalTrafficDirectorLocation globalTrafficDirectorLocation = default, CancellationToken cancellationToken = default)
+		{
+			var parentDomain = await DomainCache.EnsureAndGet(parentDomainId, cancellationToken).ConfigureAwait(false);
+
+			if (!name.IsSubdomainOf(parentDomain))
+				throw new ArgumentException($"The specified domain `{name}` is not a subdomain of the parent `{parentDomain}`", nameof(name));
+
+			await Post($"dns/managed/{parentDomainId}/records", new
+			{
+				type = "TXT",
+				name = name.WithoutParent(parentDomain),
+				value,
+				ttl         = timeToLive,
+				gtdLocation = globalTrafficDirectorLocation
+			}, cancellationToken).ConfigureAwait(false);
+		}
 		private static string GetTypeString<TRecord>() where TRecord : DnsRecord
 		{
 			if (typeof(TRecord) == typeof(DnsRecord))
